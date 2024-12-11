@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "hm.jwt",
+      "type": "com.hmall.user.config.JwtProperties",
+      "sourceType": "com.hmall.user.config.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "hm.jwt.alias",
+      "type": "java.lang.String",
+      "sourceType": "com.hmall.user.config.JwtProperties"
+    },
+    {
+      "name": "hm.jwt.location",
+      "type": "org.springframework.core.io.Resource",
+      "sourceType": "com.hmall.user.config.JwtProperties"
+    },
+    {
+      "name": "hm.jwt.password",
+      "type": "java.lang.String",
+      "sourceType": "com.hmall.user.config.JwtProperties"
+    },
+    {
+      "name": "hm.jwt.token-t-t-l",
+      "type": "java.time.Duration",
+      "sourceType": "com.hmall.user.config.JwtProperties"
+    }
+  ],
+  "hints": []
+}
