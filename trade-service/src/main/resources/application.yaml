@@ -12,7 +12,7 @@ spring:
     password: ${hm.db.pw}
   cloud:
     nacos:
-      server-addr: 47.99.115.105:8848
+      server-addr: ${hm.nacos.addr:127.0.0.1:8848}
 mybatis-plus:
   configuration:
     default-enum-type-handler: com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler
@@ -32,8 +32,8 @@ knife4j:
   openapi:
     title: 黑马商城交易管理接口文档
     description: "黑马商城交易管理接口文档"
-    email: jiuzhoumxs@gmail.com
-    concat: jiuzhou
+    email: example@example.com
+    concat: example
     url: https://www.itcast.cn
     version: v1.0.0
     group:

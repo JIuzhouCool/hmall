@@ -1,0 +1,22 @@
+# IntelliJ IDEA / local
+.idea/
+*.iml
+
+# Maven / Java build output
+**/target/
+*.class
+
+# Logs
+logs/
+*.log
+*.log.*
+*.gz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets/local overrides (never commit)
+**/application-local.yaml
+**/application-local.yml
+**/*.jks
