@@ -1,0 +1,8 @@
+# Remove build outputs, IDE files, logs, local configs, and keystores
+regex:^\.idea/.*
+regex:^logs/.*
+regex:^.*?/target/.*
+regex:^.*\.class$
+regex:^.*\.iml$
+regex:^.*application-local\.ya?ml$
+regex:^.*\.jks$
